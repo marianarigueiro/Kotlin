@@ -1,0 +1,42 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main(args: Array<String>) {
+   /*
+   val name = "MarianaRigueiro"
+   val age = "16"
+   
+   println("$name is $age")
+   println()
+   
+   val base = 3
+   val altura = 7    
+
+   val resultado = base * altura
+   println(resultado)
+   println()
+   
+   val texto = "Raul é chato"
+   println(texto)
+   println()
+   
+   val nomeUsuario = "Etec ZONA LESTE"
+   val saudacao = "Bem vindo"
+   println("$saudacao, $nomeUsuario")
+   
+   Comentário */
+    
+    
+  val b1 = true
+   
+  val b2 = false
+    
+  val c1 = b1.and(b2)// Retorno será false
+  
+  val c2 = b1.or(b2)// Retorno será true
+    
+  val c3 = b1.not()// Retorno será false
+  
+  println("$c1 $c2 $c3")
+}
