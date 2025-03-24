@@ -1,0 +1,96 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main(args: Array<String>) {
+    ex7()
+}
+fun ex6() {
+
+    var contador = 1
+    while (contador <= 5) {
+        println("Contador é: $contador")
+        contador++ 
+    }
+}
+
+fun ex3() {
+    
+    for (i in 1..5) {
+        println("Valor de i é: $i")
+    }
+}
+
+fun ex1(args: Array<String>) {
+    
+	    val a = 10
+        val b = 5
+
+    if(a > b) {
+        println("$a é maior que $b")
+    } else{
+        println("$a é menor que $b")
+    }
+} 
+
+fun ex2() {
+	val cinema = 7;
+    
+    when(cinema){
+        in 1..10 -> println("Fileira A")
+  		in 11..20 -> println("Fileira B")
+  		in 21..30 -> println("Fileira C")
+  		in 31..40 -> println("Fileira D")
+    }
+}
+
+fun ex4() {
+     val cars = arrayOf ("car1", "car2", "car3", "car4", "car5", "car6")
+     for(i in cars){
+         println("Carro $i")
+     }
+}
+
+fun ex5() {
+    val cars = arrayOf ("car1", "car2", "car3", "car4", "car5", "car6")
+    
+    println(cars[5])
+    
+}
+fun ex7() {
+    val a = 10
+    val b = 5
+    
+    val soma = a + b
+    
+    println("Soma: $soma")
+}
+
+fun ex8() {
+    val a = 10
+    val b = 5
+    
+    val subtracao = a - b
+    
+    println("Subtracao: $subtracao")
+}
+
+fun ex9() {
+    
+    val a = 10
+    val b = 5
+    
+    val multiplicacao = a * b
+    
+    println("Multiplicacao: $multiplicacao")
+}
+
+fun ex10() {
+    
+    val a = 10
+    val b = 5
+    
+    val divisao = a / b 
+    
+    println("Divisao: $divisao")
+}
